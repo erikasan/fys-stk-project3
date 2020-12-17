@@ -18,3 +18,6 @@ This repository contains programs, material and report for project 3 in FYS-STK4
 
 ### Figures folder
 * Contains figures used in the report
+
+### Drafts folder
+* Exciting behind-the-scenes
