@@ -12,8 +12,7 @@ from true_false import true_false_map
 cancer = load_breast_cancer()
 
 X_train, X_test, y_train, y_test = train_test_split(cancer.data,cancer.target,random_state=0)
-# print(X_train.shape)
-# print(X_test.shape)
+
 
 
 #xgboost

@@ -13,8 +13,6 @@ from true_false import true_false_map
 cancer = load_breast_cancer()
 
 X_train, X_test, y_train, y_test = train_test_split(cancer.data,cancer.target,random_state=0)
-# print(X_train.shape)
-# print(X_test.shape)
 
 
 # Decision Trees
@@ -39,4 +37,4 @@ print("Test set accuracy with Decision Trees scaled: {:.3f}".format(deep_tree_cl
 
 predict_tree = deep_tree_clf.predict(X_test_scaled)
 
-#true_false_map(predict_tree, y_test, 'Decision Tree scaled')
+true_false_map(predict_tree, y_test, 'Decision Tree scaled')
